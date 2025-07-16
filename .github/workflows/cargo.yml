@@ -2,6 +2,7 @@ name: Cargo-General
 permissions: { }
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - 'Cargo.lock'
